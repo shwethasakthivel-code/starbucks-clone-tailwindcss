@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+    <header class="w-full h-26 bg-white shadow-lg flex justify-between px-8">
+        <!-- Logo and Links -->
+        <aside class="w-[30%] h-full flex justify-evenly">
+            <div class="w-[20%] h-full flex justify-center items-center">
+                <img src="./imgi_1_logo.png" alt="" class="w-12.5 h-12.5">
+            </div>
+            <nav class="w-[80%] h-full">
+               <ul class="w-full h-full flex justify-evenly items-center">
+                  <li><a href="#" class="font-bold hover:text-[#00754A] uppercase tracking-wider">Menu</a></li>
+                  <li><a href="#" class="font-bold hover:text-[#00754A] uppercase tracking-wider">Rewards</a></li>
+                  <li><a href="#" class="font-bold hover:text-[#00754A] uppercase tracking-wider">Gift cards</a></li>
+               </ul>
+            </nav>
+        </aside>
+
+        <!-- Right Side Container -->
+         <aside class="w-[30%] h-full flex justify-evenly items-center">
+            <div class="hover:text-[#00754A] cursor-pointer font-semibold">
+                <span><i class="fa-solid fa-location-dot"></i></span>
+                <span>Find a store</span>
+            </div>
+            <div class="flex gap-4">
+                <button class="border px-4 py-1 font-semibold hover:bg-gray-200 rounded-full">Sign in</button>
+                <button class="border px-4 py-1 bg-black text-white font-semibold hover:bg-gray-700 rounded-full">Join now</button>
+            </div>
+         </aside>
+    </header>
+
+    <section class="w-full h-24 flex justify-center items-center">
+        <div class="w-[90%] h-full bg-[#32462F] text-white flex justify-center items-center gap-4">
+           <h3 class="text-lg font-bold">It's a great day for coffee</h3>
+           <button class="border py-2 px-4 rounded-full hover:bg-[#00754A]">Start an order</button>
+        </div>
+    </section>
+
+     <section class="w-full h-100 flex justify-center items-center mt-8">
+        <article class="w-[90%] h-full bg-[#F3CEA1] flex justify-center items-center">
+            <aside class="w-[50%] h-full text-[#006242] flex flex-col items-center justify-center gap-8 px-28 py-10 text-center">
+                <h2 class="text-xl font-bold">New Energy Refreshers just dropped</h2>
+                <p class="text-lg">Introducing a new kind of energy. Now you can enjoy the Refreshers you love with extra caffeine from nature and a B-vitamin boost.</p>
+                <!-- // 20 is opacity of the color - rgbg alpha -->
+                <button class="border py-1 px-4 rounded-full hover:bg-[#00754A]/20 cursor-pointer">Give them a try</button>
+            </aside>
+            <aside class="w-[50%] h-full bg-[url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-107289.jpg)] bg-no-repeat bg-center bg-cover"></aside>
+        </article>
+    </section>
+
+    <section class="w-full h-100 flex justify-center items-center mt-8">
+        <article class="w-[90%] h-full bg-[#F3CEA1] flex justify-center items-center">
+            <aside class="w-[50%] h-full bg-[url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-107914.jpg)] bg-no-repeat bg-center bg-cover"></aside>
+            <aside class="w-[50%] h-full text-[#006242] flex flex-col items-center justify-center gap-8 px-28 py-10 text-center">
+                <h2 class="text-xl font-bold">Your afternoon reset</h2>
+                <p class="text-lg">When 2 p.m. hits and you need a little boost, we’ve got you covered—with tasty drinks, snacks and sweet treats to keep the good vibes going.</p>
+                <!-- // 20 is opacity of the color - rgbg alpha -->
+                <button class="border py-1 px-4 bg-green-800 rounded-full hover:bg-green-600 transition duration-300 cursor-pointer">Explore our afternoon menu</button>
+            </aside>
+        </article>
+    </section>
+
+</body>
+</html>
